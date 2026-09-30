@@ -8,7 +8,7 @@ def get_gallons_used():
     while (gallons_used := float(input("Enter gallons of gas:\t"))) <= 0:                    
         print("Entry must be greater than zero. Please try again.\n")
     return gallons_used
-
+        
 def main():
     # display a welcome message
     print("The Miles Per Gallon program")
@@ -29,4 +29,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
