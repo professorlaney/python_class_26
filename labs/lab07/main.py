@@ -1,3 +1,5 @@
+# Starting file for LAB 7
+# Include your course number, student first and last name, and date in the comment header
 
 def get_miles_driven():
     while (miles_driven := float(input("Enter miles driven:\t"))) <= 0:                    
